@@ -1,0 +1,73 @@
+<section class="section">
+  <div class="container">
+    <div class="section__content section__content--fade-in">
+      <div class="profile">
+        <div class="profile__avatar">
+          <div class="profile__avatar-placeholder">
+            <img src="./assets/images/me.png" alt="avatar" class="profile__avatar-image">
+          </div>
+        </div>
+        <div class="profile__info">
+          <h2 class="profile__name">{{ aboutMe.name }}</h2>
+          <p class="profile__title">{{ aboutMe.title }}</p>
+          <p class="profile__description">{{ aboutMe.description }}</p>
+          <div class="skills">
+              <span class="skills__item" *ngFor="let skill of aboutMe.skills">
+                {{ skill }}
+              </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section__title">Образование и учебные достижения</h2>
+    <div class="education-list">
+      <div class="education-card" *ngFor="let edu of education; let i = index"
+           [style.animation-delay]="i * 0.2 + 's'">
+        <div class="education-card__header">
+          <h3 class="education-card__institution">{{ edu.institution }}</h3>
+          <span class="education-card__period">{{ edu.period }}</span>
+        </div>
+        <p class="education-card__degree">{{ edu.degree }}</p>
+        <ul class="education-card__achievements">
+          <li class="education-card__achievement" *ngFor="let achievement of edu.achievements">
+            {{ achievement }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section__title">Опыт в разработке</h2>
+    <div class="experience-timeline">
+      <div class="experience-item" *ngFor="let exp of experience; let i = index"
+           [style.animation-delay]="i * 0.2 + 's'">
+        <div class="experience-item__content">
+          <div class="experience-item__header">
+            <div>
+              <h3 class="experience-item__position">{{ exp.position }}</h3>
+              <p class="experience-item__company">{{ exp.company }}</p>
+            </div>
+            <span class="experience-item__period">{{ exp.period }}</span>
+          </div>
+          <p class="experience-item__description">{{ exp.description }}</p>
+          <div class="experience-item__links">
+            <a class="experience-item__link" *ngFor="let link of exp.links" href="{{link}}">Ссылка на проект</a>
+          </div>
+          <div class="tech-tags">
+              <span class="tech-tags__item" *ngFor="let tech of exp.technologies">
+                {{ tech }}
+              </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

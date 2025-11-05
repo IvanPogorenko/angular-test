@@ -1,0 +1,76 @@
+{
+  "films": [
+    {
+      "id": 0,
+      "name": "Интерстеллар",
+      "genre": ["Фантастика", "Драма", "Приключения"],
+      "duration": 169,
+      "description": "Фантастический эпос о путешествии группы исследователей сквозь червоточину в поисках нового дома для человечества.",
+      "img": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "year": 2014
+    },
+    {
+      "id": 1,
+      "name": "Побег из Шоушенка",
+      "genre": ["Драма", "Криминал"],
+      "duration": 142,
+      "description": "Два заключенных заводят дружбу в тюрьме, находя утешение и искупление через простые поступки.",
+      "img": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+      "year": 1994
+    },
+    {
+      "id": 2,
+      "name": "Крестный отец",
+      "genre": ["Криминал", "Драма", "Триллер"],
+      "duration": 175,
+      "description": "Стареющий патриарх организованной преступной династии передает контроль своему неохотному сыну.",
+      "img": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+      "year": 1972
+    },
+    {
+      "id": 3,
+      "name": "Темный рыцарь",
+      "genre": ["Боевик", "Драма", "Криминал", "Триллер"],
+      "duration": 152,
+      "description": "Бэтмен сталкивается с Джокером, анархичным преступником, который сеет хаос в Готэме.",
+      "img": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_FMjpg_UX1000_.jpg",
+      "year": 2008
+    },
+    {
+      "id": 4,
+      "name": "Начало",
+      "genre": ["Фантастика", "Боевик", "Триллер"],
+      "duration": 148,
+      "description": "Вор, который крадет корпоративные секреты через использование технологии совместных снов.",
+      "img": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
+      "year": 2010
+    },
+    {
+      "id": 5,
+      "name": "Матрица",
+      "genre": ["Фантастика", "Боевик", "Приключения"],
+      "duration": 136,
+      "description": "Хакер узнает от таинственных повстанцев о истинной природе своей реальности и своей роли в войне против ее контролеров.",
+      "img": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+      "year": 1999
+    },
+    {
+      "id": 6,
+      "name": "Король Лев",
+      "genre": ["Мультфильм", "Драма", "Приключения", "Семейный"],
+      "duration": 88,
+      "description": "Львенок Симба предает свое королевство изгнанником, но должен вернуться и бросить вызов узурпатору.",
+      "img": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_FMjpg_UX1000_.jpg",
+      "year": 1994
+    },
+    {
+      "id": 7,
+      "name": "Аватар",
+      "genre": ["Фантастика", "Боевик", "Приключения", "Мелодрама"],
+      "duration": 162,
+      "description": "Парализованный морпех отправляется на Пандору, где становится частью программы Аватара.",
+      "img": "https://m.media-amazon.com/images/M/MV5BZDA0OGQxNTItMDZkMC00N2UyLTg3MzMtYTJmNjg3Nzk5MzRiXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_FMjpg_UX1000_.jpg",
+      "year": 2009
+    }
+  ]
+}

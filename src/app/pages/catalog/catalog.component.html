@@ -1,0 +1,10 @@
+<router-outlet></router-outlet>
+<main class="catalog">
+  <div class="container catalog__container">
+    <div class="catalog__films">
+      <ng-container *ngFor="let film of films">
+        <app-film-card [film]="film"></app-film-card>
+      </ng-container>
+    </div>
+  </div>
+</main>

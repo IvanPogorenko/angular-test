@@ -1,0 +1,24 @@
+<div class="film-modal">
+  <div class="film-modal__content">
+    <div class="modal-header">
+      <h4 class="modal-title">{{film.name}}</h4>
+      <button type="button" class="btn-close" aria-label="Close" (click)="dismiss()"></button>
+    </div>
+    <div class="modal-body">
+      <div class="film-modal__body" *ngIf="film">
+        <div class="film-modal__image">
+          <img src="{{film.img}}" [alt]="film.name + '-image'" class="film-modal__img">
+        </div>
+        <div class="film-modal__info">
+          <p><strong>Год:</strong> {{film.year}}</p>
+          <p><strong>Жанр:</strong> {{film.genre.join(', ')}}</p>
+          <p><strong>Длительность:</strong> {{film.duration}} мин.</p>
+          <p class="film-modal__description"><strong>Описание:</strong> {{film.description}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" (click)="close()">Закрыть</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.catalog{
+
+  &__container{
+    padding: 50px 0;
+  }
+
+  &__films{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 300px));
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+}
