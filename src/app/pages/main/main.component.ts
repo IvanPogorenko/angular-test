@@ -1,21 +1,7 @@
 import { Component } from '@angular/core';
 import {NgForOf} from '@angular/common';
-
-interface Education {
-  institution: string
-  degree: string
-  period: string
-  achievements: string[]
-}
-
-interface Experience {
-  company: string
-  position: string
-  period: string
-  technologies: string[]
-  description: string,
-  links: string[]
-}
+import {Education} from '../../interfaces/about-me/Education';
+import {Experience} from '../../interfaces/about-me/Expirience';
 
 @Component({
   selector: 'app-main',

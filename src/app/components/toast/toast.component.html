@@ -1,0 +1,5 @@
+<div class="custom-toast" *ngIf="show">
+  <div class="custom-toast__msg" [ngClass]="{'custom-toast__msg_success': !message?.error, 'custom-toast__msg_error': message?.error}">
+    <p>{{message?.message}}</p>
+  </div>
+</div>

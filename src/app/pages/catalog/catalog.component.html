@@ -1,9 +1,19 @@
 <router-outlet></router-outlet>
 <main class="catalog">
   <div class="container catalog__container">
-    <div class="catalog__films">
-      <ng-container *ngFor="let film of films">
-        <app-film-card [film]="film"></app-film-card>
+    <div class="catalog__actions">
+      <select class="catalog__status-sort" (change)="onChangeSelect($event)">
+        <option *ngFor="let status of BookStatusEnum | keyvalue"> {{status.value}} </option>
+      </select>
+      <button class="catalog__book-btn catalog__book-btn" type="button" (click)="addComponent()">Добавить</button>
+      <button *ngIf="componentRef" class="catalog__book-btn catalog__book-btn_cancel" type="button" (click)="deleteComponent()">Отмена</button>
+    </div>
+    <ng-container #formContainer>
+
+    </ng-container>
+    <div class="catalog__books">
+      <ng-container *ngFor="let book of showedBooks">
+        <app-book-card [book]="book"></app-book-card>
       </ng-container>
     </div>
   </div>

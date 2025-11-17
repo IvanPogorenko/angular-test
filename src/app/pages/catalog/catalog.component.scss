@@ -4,12 +4,30 @@
     padding: 50px 0;
   }
 
-  &__films{
+  &__status-sort{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+
+  &__book-btn{
+    background-color: #25b625;
+    padding: 8px 10px;
+    margin-left: 10px;
+
+    &_cancel{
+      background-color: gray;
+    }
+
+  }
+
+  &__books{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 300px));
     justify-content: center;
-    align-items: stretch;
     gap: 20px;
+    align-items: stretch;
+    margin-top: 25px;
   }
 
 }

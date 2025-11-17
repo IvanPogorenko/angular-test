@@ -7,17 +7,17 @@ export enum AppRoutes{
 }
 
 export enum CatalogRoutes{
-  FILM = 'film/:id/:name'
+  BOOK = 'film/:id/:name'
 }
 
 export const toApp = ['/']
-export const toFilms = [...toApp, AppRoutes.CATALOG]
+export const toBooks = [...toApp, AppRoutes.CATALOG]
 
 export const appRoutes = {
   index: toApp,
   catalog: {
-    index: toFilms,
-    film: [...toFilms, CatalogRoutes.FILM]
+    index: toBooks,
+    film: [...toBooks, CatalogRoutes.BOOK]
   }
 }
 
@@ -50,10 +50,9 @@ export class RoutingService {
     })
   }
 
-  public toFilm(id: number, name: string){
+  public toBook(id: number, name: string){
     const routeSegments = this.divideSegments(appRoutes.catalog.film)
     const route = this.buildRoute(routeSegments, {id: id, name: name})
-    console.log(routeSegments)
     return this._router.navigate(route)
   }
 }

@@ -1,0 +1,33 @@
+.book-form{
+
+  &__field-group{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+  }
+
+  &__field{
+    margin-top: 5px;
+    border: 2px solid black;
+    padding: 3px 8px;
+  }
+
+  &__actions{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__btn{
+    background-color: #16c916;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
+
+    &_reset{
+      background-color: #b72a2a;
+    }
+
+  }
+
+}
