@@ -1,0 +1,25 @@
+.custom-toast{
+  width: 250px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+
+  &__msg{
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_success{
+      background-color: #25b625;
+    }
+
+    &_error{
+      background-color: #b72a2a;
+    }
+
+  }
+
+}

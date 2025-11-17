@@ -1,0 +1,26 @@
+<div class="book-modal">
+  <div class="book-modal__content">
+    <div class="modal-header">
+      <h4 class="modal-title">{{book.name}}</h4>
+      <button type="button" class="btn-close" aria-label="Close" (click)="dismiss()"></button>
+    </div>
+    <div class="modal-body">
+      <div class="book-modal__body" *ngIf="book">
+        <div class="book-modal__image">
+          <img src="{{book.img}}" [alt]="book.name + '-image'" class="film-modal__img">
+        </div>
+        <div class="book-modal__info">
+          <p><strong>Автор:</strong> {{book.author}}</p>
+          <p class="book-modal__description"><strong>Описание:</strong> {{book.description}}</p>
+          <select class="book-modal__status" (change)="onStatusChange($event)">
+            <option [selected]="status === book.status" *ngFor="let status of statusValues">{{status}}</option>
+          </select>
+          <button type="button" class="book-modal__btn" (click)="delete()">Удалить</button>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" (click)="close()">Закрыть</button>
+    </div>
+  </div>
+</div>

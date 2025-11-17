@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import {AppRoutes, CatalogRoutes} from './routing.service';
 import {CatalogComponent} from './pages/catalog/catalog.component';
-import {FilmModalComponent} from './components/film-modal/film-modal.component';
+import {BookModalComponent} from './components/book-modal/book-modal.component';
 import {MainComponent} from './pages/main/main.component';
 
 export const routes: Routes = [
@@ -14,8 +14,8 @@ export const routes: Routes = [
     component: CatalogComponent,
     children: [
       {
-        path: CatalogRoutes.FILM,
-        component: FilmModalComponent
+        path: CatalogRoutes.BOOK,
+        component: BookModalComponent
       }
     ]
   },

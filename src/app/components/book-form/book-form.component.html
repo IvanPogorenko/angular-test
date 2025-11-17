@@ -1,0 +1,64 @@
+<ng-template #createForm>
+  <form class="book-form">
+    <div class="book-form__field-group">
+      <label>Название книги</label>
+      <input
+        class="book-form__field"
+        type="text"
+        #name="ngModel"
+        name="name"
+        [(ngModel)]="addedBook.name"
+        required
+        placeholder="Введите название книги">
+    </div>
+
+    <div class="book-form__field-group">
+      <label>Автор</label>
+      <input
+        class="book-form__field"
+        type="text"
+        #author="ngModel"
+        name="author"
+        [(ngModel)]="addedBook.author"
+        required
+        placeholder="Введите имя автора">
+    </div>
+
+    <div class="book-form__field-group">
+      <label>Описание</label>
+      <textarea
+        class="book-form__field"
+        #description="ngModel"
+        name="description"
+        [(ngModel)]="addedBook.description"
+        required
+        placeholder="Введите описание книги"></textarea>
+    </div>
+
+    <div class="book-form__field-group">
+      <label>Статус чтения</label>
+      <select class="book-form__field" #status="ngModel" name="status" [(ngModel)]="addedBook.status" required>
+        <option *ngFor="let status of statusValues">{{ status }}</option>
+      </select>
+    </div>
+
+    <div class="book-form__field-group">
+      <label>Ссылка на изображение</label>
+      <input
+        class="book-form__field"
+        type="text"
+        #img="ngModel"
+        name="img"
+        [(ngModel)]="addedBook.img"
+        required
+        placeholder="https://example.com/image.jpg">
+    </div>
+
+    <div class="book-form__actions">
+      <button [disabled]="name.invalid || author.invalid || img.invalid || description.invalid || status.invalid" type="submit" class="book-form__btn" (click)="onSubmit()">Добавить книгу</button>
+    </div>
+  </form>
+
+</ng-template>
+
+<ng-container *ngTemplateOutlet="createForm"></ng-container>

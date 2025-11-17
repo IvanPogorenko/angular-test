@@ -1,0 +1,68 @@
+{
+  "books": [
+    {
+      "id": 0,
+      "name": "Мастер и Маргарита",
+      "description": "Мистический роман о дьяволе, посетившем Москву 1930-х годов",
+      "author": "Михаил Булгаков",
+      "status": "ожидает чтения",
+      "img": "https://4.downloader.disk.yandex.ru/preview/722139d465a9219d599670bb469b56fdab25d3d95dfbde43f55da1965174a2da/inf/bYVnH4gEMUiBhegVflbiPrYj-G5izRlKPx88qG0-r4zjidT-FNa-ZjR72rLFyIh8AqctLa66WRyjHmpEdbm6Ww%3D%3D?uid=1405807076&filename=%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%20%D0%B8%20%D0%BC%D0%B0%D1%80%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D0%B0.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 1,
+      "name": "1984",
+      "description": "Антиутопия о тоталитарном обществе под постоянным контролем",
+      "author": "Джордж Оруэлл",
+      "status": "начата читать",
+      "img": "https://3.downloader.disk.yandex.ru/preview/1346c3b3e47d5a1cce9952955dd4c2ffb9c1b261532e596fbed0d4a507e11a92/inf/9dgnaacrR-vww5XUER7YxJqmPeujHa1szwpmLbeC48csrsf8YUv16F-r-GzB5FNQVdlZ-xfFCYFSPXsNAfwLNA%3D%3D?uid=1405807076&filename=1984.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 2,
+      "name": "Преступление и наказание",
+      "description": "Психологический роман о студенте, совершившем убийство",
+      "author": "Фёдор Достоевский",
+      "status": "ожидает чтения",
+      "img": "https://3.downloader.disk.yandex.ru/preview/c2569d2fd5e2851230a2859882dbe353437404b3a29caa0d7224f462aef7b376/inf/Gb8f9V7o0ZQqSZ1XT0fQuSSPeCA-S2Qe2IaSgbx3252KcCXHISs5or1m0_FkAFka_VutvNwZP7nBme6YMMCUkQ%3D%3D?uid=1405807076&filename=%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 3,
+      "name": "Гарри Поттер и философский камень",
+      "description": "Первая книга о юном волшебнике Гарри Поттере",
+      "author": "Джоан Роулинг",
+      "status": "ожидает чтения",
+      "img": "https://2.downloader.disk.yandex.ru/preview/677d2feb5948f2cc2f9ad0b802f390c4592d8c4fa3d24ef00744fe966561a5c4/inf/FY-kbYJnFI_SYB9b0lU-KWilAHPG8XQOCOEMlXWhmEpQtF_fiv-C2-alb5NvEA89t4oJ7IjTNJwM6xJyg6zZWw%3D%3D?uid=1405807076&filename=%D0%93%D0%B0%D1%80%D1%80%D0%B8%20%D0%9F%D0%BE%D1%82%D1%82%D0%B5%D1%80%20%D0%B8%20%D1%84%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%8C.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 4,
+      "name": "Маленький принц",
+      "description": "Философская сказка о мальчике с далекой планеты",
+      "author": "Антуан де Сент-Экзюпери",
+      "status": "прочтена",
+      "img": "https://2.downloader.disk.yandex.ru/preview/75b436e65435fde9af4ab4161d2db9f89200a52385c7b499dde2d9bf46becf3e/inf/BuQ6vVzoaTGGNVJhkC5xuDHN0onpdYgSiNhpSoYqY15ZTRu77sCETCUh80z3agtOhMSb1yMzkiGlZPTYvL_pBQ%3D%3D?uid=1405807076&filename=%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B8%D0%B9%20%D0%BF%D1%80%D0%B8%D0%BD%D1%86.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 5,
+      "name": "Три товарища",
+      "description": "Роман о дружбе и любви в послевоенной Германии",
+      "author": "Эрих Мария Ремарк",
+      "status": "ожидает чтения",
+      "img": "https://1.downloader.disk.yandex.ru/preview/315064b6701418d4b591705f869e571f2279620930527b39d39b6f5d56e5ff43/inf/LmoNI9uRslW9UWoiIhlePRjG0UsSMD8Y_WpBb3OaVFeJF5DaXaT7pZ6YMux_ObtE0MNAVXNc5cq0L63JXWYDRQ%3D%3D?uid=1405807076&filename=%D0%A2%D1%80%D0%B8%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D1%89%D0%B0.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 6,
+      "name": "Шерлок Холмс",
+      "description": "Сборник детективных рассказов о знаменитом сыщике",
+      "author": "Артур Конан Дойл",
+      "status": "прочтена",
+      "img": "https://4.downloader.disk.yandex.ru/preview/7451543f32e07acf283aa1c8ad938dcbd06e45ce300b584b7da1951334a78033/inf/9NuJNa8my64gMjBRKuwZ4cUNHY3hYEJx3l_JPiBRw7MIS5bRU06R1sVLA0WnlVpzroQAk8ievgpdEVYqOuiflA%3D%3D?uid=1405807076&filename=%D0%A8%D0%B5%D1%80%D0%BB%D0%BE%D0%BA%20%D0%A5%D0%BE%D0%BB%D0%BC%D1%81.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    },
+    {
+      "id": 7,
+      "name": "Атлант расправил плечи",
+      "description": "Философский роман о предпринимателях и их роли в обществе",
+      "author": "Айн Рэнд",
+      "status": "ожидает чтения",
+      "img": "https://3.downloader.disk.yandex.ru/preview/53b4349da6c089f8180a0c279fd45b1df3791175c03f0ba9585dc139d34c7bf3/inf/dkEU9KYRIDJGSAGYh1vfdzQoDh43xG4w8KawZybQ_IRnqatS0Dj4J6UP94jDvGemnFuOj2Op7bG9ITU829XMlg%3D%3D?uid=1405807076&filename=%D0%90%D1%82%D0%BB%D0%B0%D0%BD%D1%82%20%D1%80%D0%B0%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%20%D0%BF%D0%BB%D0%B5%D1%87%D0%B8.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v3&size=2538x1237"
+    }
+  ]
+}
